@@ -148,7 +148,7 @@ with tab1:
 
                 save_tickets()
 
-                st.success(f"Ticket {ticket_id} Has Been Saved! You can view your ticket in the search tab!")
+                st.success(f"{ticket_id} Has Been Saved! You can view your ticket in the search tab!")
 
 
 
@@ -177,7 +177,7 @@ with tab1:
                         hide_index = True,
                         use_container_width = True
                     )
-                    st.caption("For full details, please search for your"
+                    st.caption("For full details, please search for your "
                                "ticket in the Search Page")
 
 
